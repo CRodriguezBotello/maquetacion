@@ -1,14 +1,21 @@
+body{
+    background-color: navajowhite;
+    width: 1260px;
+    height: 500px;
+    margin-top: 45px;
+}
 #main{
-    background-color: black;
+    background-color: green;
     /* height: 400px; */
     width: 1260px;
-    margin-top: 45px;
+    /* overflow: hidden;*/
+    display: flow-root;
 }
 
 #div1{
     float: left;
     background-color: lightgreen;
-    /* height: 370px; 400px - 30 de padding-top */
+     height: 370px; /*400px - 30 de padding-top */
     width: 780px; /*800px - 20 de padding(10 + 10)*/
     margin-left: 20px;
     padding: 30px 10px 0px 10px;
@@ -19,7 +26,7 @@
     float: left;
     background-color: lightsteelblue;
     width: 370px; /*400px - 30 de padding-left*/
-    /* height: 350px; 400px - 50 de padding-top */
+    height: 350px; /*400px - 50 de padding-top */
     margin-left: 20px;
     margin-right: 20px;
     padding-left: 30px;
@@ -46,4 +53,20 @@ footer{
     background-color: lightpink;
     height: 100px;
     width: 1260px;
+}
+
+/*Segundo nivel. Elementos caja izquierda*/
+
+#div2 form{
+    margin-top: 4em;
+    padding: 1em 0 1em 70px;
+    border: 1px solid black;
+}
+
+#div2 input[type="text"]{
+    width: 490px; /*500-10*/
+    padding-left: 10px;
+    height: 1.8em;
+    margin: 1em 0;
+    display: block;
 }
