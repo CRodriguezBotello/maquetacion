@@ -54,6 +54,12 @@ footer{
     height: 100px;
     width: 1260px;
 }
+footer>div:nth-child(1){
+    background-color: tomato;
+}
+footer>div:nth-child(2){
+    background-color: cyan;
+}
 
 /*Segundo nivel. Elementos caja izquierda*/
 
