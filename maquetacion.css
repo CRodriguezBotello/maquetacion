@@ -55,9 +55,15 @@ footer{
     width: 1260px;
 }
 footer>div:nth-child(1){
+    position: absolute;
+    width: 200px;
+    height: 20px;
     background-color: tomato;
 }
 footer>div:nth-child(2){
+    position: absolute;
+    width: 100px;
+    height: 10px;
     background-color: cyan;
 }
 
