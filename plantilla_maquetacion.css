@@ -23,7 +23,7 @@ body{
 }
 
 #div2{
-    float: left;
+    float: right;
     background-color: lightsteelblue;
     width: 370px; /*400px - 30 de padding-left*/
     height: 350px; /*400px - 50 de padding-top */
