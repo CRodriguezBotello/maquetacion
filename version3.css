@@ -1,0 +1,25 @@
+#div2{
+    height: 2000px;
+}
+#div2>div:nth-child(1){
+    position: relative;
+    top: 500px;
+    margin-top: 30px;
+    width: 200px;
+    height: 20px;
+    background-color: tomato;
+}
+#div2>div:nth-child(2){
+    position: sticky;
+    top: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: cyan;
+}
+#div2>div:nth-child(3){
+    position: fixed;
+    bottom: 0px;
+    width: 100px;
+    height: 30px;
+    background-color: black;
+}
