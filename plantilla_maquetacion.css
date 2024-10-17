@@ -1,0 +1,56 @@
+body{
+    background-color: navajowhite;
+    width: 1260px;
+    height: 500px;
+    margin-top: 45px;
+}
+#main{
+    background-color: green;
+    /* height: 400px; */
+    width: 1260px;
+    /* overflow: hidden;*/
+    display: flow-root;
+}
+
+#div1{
+    float: left;
+    background-color: lightgreen;
+     height: 370px; /*400px - 30 de padding-top */
+    width: 780px; /*800px - 20 de padding(10 + 10)*/
+    margin-left: 20px;
+    padding: 30px 10px 0px 10px;
+            /*top right bottom left*/
+}
+
+#div2{
+    float: left;
+    background-color: lightsteelblue;
+    width: 370px; /*400px - 30 de padding-left*/
+    height: 350px; /*400px - 50 de padding-top */
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+form{
+    padding-left: 70px;
+    border: 1px solid black;
+    width: 708px; /*780 - 2px de borde - 70px de padding-left*/
+    margin-top: 40px;
+}
+form>input:last-child{
+    margin-left: 50px;
+}
+
+img{
+    background-color: lightcoral;
+    width: 150px;
+}
+
+footer{
+    clear: both;
+    background-color: lightpink;
+    height: 100px;
+    width: 1260px;
+}
