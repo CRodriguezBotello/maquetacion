@@ -1,27 +1,19 @@
+#div2{
+    height: 1500px;
+}
 #div2>div:nth-child(1){
     position: absolute;
-    bottom: 500px;
+    margin-top: 30px;
+    top: 200px;
     width: 200px;
     height: 20px;
     background-color: tomato;
 }
 #div2>div:nth-child(2){
-    position: absolute;
-    bottom: 480px;
-    right: 500px;
+    position: fixed;
+    top: 200px;
+    left: 1000px;
     width: 100px;
     height: 30px;
     background-color: cyan;
-}
-
-form{
-    position: absolute;
-    top: 50px;
-}
-
-p{
-    position: absolute;
-    top: 75px;
-    left: 270px;
-    width: 550px;
 }
