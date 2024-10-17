@@ -54,31 +54,3 @@ footer{
     height: 100px;
     width: 1260px;
 }
-footer>div:nth-child(1){
-    position: absolute;
-    width: 200px;
-    height: 20px;
-    background-color: tomato;
-}
-footer>div:nth-child(2){
-    position: absolute;
-    width: 100px;
-    height: 10px;
-    background-color: cyan;
-}
-
-/*Segundo nivel. Elementos caja izquierda*/
-
-#div2 form{
-    margin-top: 4em;
-    padding: 1em 0 1em 70px;
-    border: 1px solid black;
-}
-
-#div2 input[type="text"]{
-    width: 490px; /*500-10*/
-    padding-left: 10px;
-    height: 1.8em;
-    margin: 1em 0;
-    display: block;
-}
