@@ -1,0 +1,56 @@
+body{
+    background-color: navajowhite;
+    width: 1260px;
+    height: 500px;
+    margin-top: 45px;
+}
+#main{
+    background-color: green;
+    /* height: 400px; */
+    width: 96.825%; /*body 1260 - 40 de margin (20+20)*//*body son 1260px y main son 1220px*/
+    margin-right: 1.639%; /*main son 1220px y margin son 20px*/
+    margin-left: 1.639%; /*main son 1220px y margin son 20px*/
+    /* overflow: hidden;*/
+    display: flow-root;
+}
+
+#div1{
+    float: left;
+    background-color: lightgreen;
+    height: 370px; /*400px - 30 de padding-top *//*main son 1260px y div1 son 370px*/
+    width: 61.9047%; /*800px - 20 de padding(10 + 10)*//*main son 1260px y div1 son 780px*/
+    padding: 30px 0.79% 0px 0.79%; /*main son 1260px y padding right y left son 10px*/
+            /*top right bottom left*/
+}
+
+#div2{
+    float: right;
+    background-color: lightsteelblue;
+    width: 26.36%; /*400px - 30 de padding-left*//*main son 1260px y div2 son 370px*/
+    height: 350px; /*400px - 50 de padding-top */
+    margin-left: 1.587%; /*main son 1260px y margin son 20px*/
+    padding-left: 2.38%; /*main son 1260px y margin son 30px*/
+    padding-top: 50px;
+}
+
+form{
+    padding-left: 8.75%; /*div son 800px y padding son 70px*/
+    border: 0.125% solid black; /*div1 son 800px y borde es 1px*/
+    width: 88.5%; /*780 - 2px de borde - 70px de padding-left*/ /*div1 son 800px y form son 708px*/
+    margin-top: 40px;
+}
+form>input:last-child{
+    margin-left: 7.06%; /*form son 708px y margin son 50px*/
+}
+
+img{
+    background-color: lightcoral;
+    width: 40.54%; /*div2 son 370px y img son 150px*/
+}
+
+footer{
+    clear: both;
+    background-color: lightpink;
+    height: 100px;
+    width: 100%;
+}
