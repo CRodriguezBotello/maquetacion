@@ -17,19 +17,19 @@ body{
 #div1{
     float: left;
     background-color: lightgreen;
-    height: 370px; /*400px - 30 de padding-top *//*main son 1260px y div1 son 370px*/
-    width: 61.9047%; /*800px - 20 de padding(10 + 10)*//*main son 1260px y div1 son 780px*/
-    padding: 30px 0.79% 0px 0.79%; /*main son 1260px y padding right y left son 10px*/
+    height: 370px; /*400px - 30 de padding-top *//*main son 1220px y div1 son 370px*/
+    width: 61.934%; /*800px - 20 de padding(10 + 10)*//*main son 1220px y div1 son 780px*/
+    padding: 30px 0.819% 0px 0.819%; /*main son 1220px y padding right y left son 10px*/
             /*top right bottom left*/
 }
 
 #div2{
     float: right;
     background-color: lightsteelblue;
-    width: 26.36%; /*400px - 30 de padding-left*//*main son 1260px y div2 son 370px*/
+    width: 30.327%; /*400px - 30 de padding-left*//*main son 1220px y div2 son 370px*/
     height: 350px; /*400px - 50 de padding-top */
-    margin-left: 1.587%; /*main son 1260px y margin son 20px*/
-    padding-left: 2.38%; /*main son 1260px y margin son 30px*/
+    margin-left: 1.639%; /*main son 1220px y margin son 20px*/
+    padding-left: 2.459%; /*main son 1220px y margin son 30px*/
     padding-top: 50px;
 }
 
